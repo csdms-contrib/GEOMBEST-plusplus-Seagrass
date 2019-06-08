@@ -1,0 +1,9 @@
+function stormplot
+
+% Plots the frequency distribution of different storms
+
+plot (1:5,sum(stormsnormal),'o-r')
+
+hold on
+
+plot (1:5,sum(stormsskewed),'o-r')
